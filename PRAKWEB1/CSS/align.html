@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .center1{
+      margin: auto;
+      width: 60%;
+      border: 3px solid salmon;
+      padding: 10px;
+    }
+    .center2{
+  text-align: center;
+  border: 3px solid lightpink;
+}
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid lightsalmon;
+  padding: 10px;
+}
+.center3{
+  padding: 70px 0;
+  border: 3px solid lightcoral;
+}
+.center4{
+  padding: 70px 0;
+  border: 3px solid coral;
+  text-align: center;
+}
+.center4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid palevioletred; 
+}
+    </style>
+<body>
+    <h2>Center Align Elements</h2>
+<p>To horizontally center a block element (like div), use margin: auto;</p>
+
+<div class="center1">
+  <p>Hello DIVE!</p>
+</div>
+<div class="center2">
+    <p>This is centered.</p>
+  </div>
+
+  <!--An example of how to right align elements with the position property-->
+<div class="right">
+  <p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
+</div>
+<div class="center3">
+    <p>I am vertically centered.</p>
+  </div>
+  <!--In this example, we use padding and text-align to center the div element both vertically and horizontally-->
+
+<div class="center4">
+  <p>I am vertically and horizontally centered.</p>
+</div>
+
+<!--A container with both the justify-content and the align-items properties set to <em>center</em> will align the item(s) in the center (in both axis)-->
+
+<div class="center">
+  <p>I am vertically and horizontally centered.</p>
+</div>
+
+  
+    
+</body>
+</html>

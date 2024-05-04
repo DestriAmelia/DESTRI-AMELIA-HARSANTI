@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p:first-child i {
+  color: salmon;
+} 
+.p1{
+  display: none;
+  background-color: pink;
+  padding: 20px;
+}
+
+div:hover .p1 {
+  display: block;
+}
+.p2::first-line {
+  color: tomato;
+  font-variant: small-caps;
+}
+.p3::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+.p4::first-letter {
+  color: palevioletred;
+  font-size: xx-large;
+}
+
+.p4::first-line {
+  color: plum;
+  font-variant: small-caps;
+}
+</style>
+</head>
+<body>
+
+    <div>Click me to show the suprize word &#127873;
+        <p class="p1">Tada! Here I am!</p>
+      </div>
+
+<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+
+<div>
+  <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+  <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+</div>
+
+<p class="p2">You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
+
+<p class="p3">You can use the ::first-letter pseudo-element to add a special effect to the first character of a text!</p> 
+<p class="p4">You can combine the ::first-letter and ::first-line pseudo-elements to add a special effect to the first letter and the first line of a text!</p>
+</body>
+</html>
+
+
